@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script>
+    
+        const num1 = prompt("number please ");
+const num2 =    prompt("number plaease ");
+const num3 = prompt("number please ");
+const num4 = prompt("number please ");
+let largest;
+    const stringnum = parseInt(num1)
+    const numstring2 = parseInt(num2)
+    const numstring3 = parseInt(num3)
+    const numstring4 = parseInt(num4)
+    
+    if(num1 >= num2 && num1 >= num3 && num1 >= num4) {
+    largest = num1;
+}
+else if (num2 >= num1 && num2 >= num3 && num2 >= num4) {
+    largest = num2;
+}
+else if(num3 >= num1 && num3 >= num2 && num3 >= num4) {
+    largest = num3;
+}
+else {num4 >= num1 && num4 >= num2 && num4 >= num3}
+
+largest = num4;
+console.log("The largest number is " + largest);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
